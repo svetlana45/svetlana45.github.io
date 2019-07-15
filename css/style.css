@@ -27,13 +27,13 @@ body {
 }
 
 a {
-  color: #d3387b;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #d3387b;
+  color: #fff;
   outline: none;
 }
 
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #d3387b;
+  background: #fff;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #d3387b;
+  background: #fff;
 }
 
 ::selection {
   color: #fff;
-  background: #d3387b;
+  background: #fff;
 }
 
 #fh5co-page {
@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: -50%;
   width: 50%;
-  background: #b95c1a;
+  /*background: #b95c1a; */
+  background: linear-gradient(to top, #8c4614, #cf671d);
   background-size: cover;
   color: #fff;
   padding: 30px;
@@ -86,6 +87,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+
+
+#fh5co-aside .ns{
+height: 100px;
+width: 100%;
+margin-top: 100px;
+text-align:center;
+font-size: 10px;
+}
+
 
 #fh5co-aside ul li{
 	color: #ffffff;
@@ -204,7 +216,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.col-md-12 ul{  /*СПИСОК ДЛЯ ТЕЛЕФОНА И EMAIL */
+	
+	padding: 0; /* Убираем поля */
+    margin-left: 0px;
+	
+}
 
+.col-md-12 li{ 
+ list-style-type: none;/* Убираем маркеры в спмсках */
+
+}
  .rd  img{ /* БЛОК ДЛЯ КРУГЛОГО ФОТО СВЕТЫ */
   border-radius: 50%;
   max-width: 100%;
