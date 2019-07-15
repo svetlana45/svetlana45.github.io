@@ -232,7 +232,7 @@ font-size: 10px;
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
- border: 0px solid red;
+ border: 2px solid #ffffff;
  }
 .aside-toggle a em, .back-to-home a em {
   width: 100px;
